@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect-0-fy</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./carousel.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header1">
+        <header>
+            <img class="logo" src="logo-no-background.svg" alt="logo">
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="./test-categories/categories.html">Categories</a></li>
+                    <li><a href="#">Media</a></li>
+                    <li><a href="./about page/updated.html">About us</a></li>
+                    <li><a href="https://forms.gle/4ZxutJ9yqajgQ2y67">Reach Out</a></li>
+                </ul>
+            </nav>
+            <div class="action">
+                <div class="profile" onclick="menuToggle();">
+                    <img src="Images\profile-user_1.svg">
+                </div>
+                <div class="menu">
+                    <h3>Lakshay Garg<br><span>22BCE2987</span></h3>
+                    <ul>
+                        <li><img src="Images\user.svg"><a href="https://youtu.be/dQw4w9WgXcQ?si=-DE-fkdrLfGlSMf7">My Profile</a></li>
+                        <li><img src="Images\envelope.svg"><a href="https://forms.gle/4ZxutJ9yqajgQ2y67">Contact Us</a></li>
+                        <li><img src="Images\log-out.svg"><a href="https://youtube.com/shorts/tzJuDQnNnkY?si=8wos5f4tPQW4H4EV">Sign out</a></li>
+                    </ul>
+                </div>
+            </div>
+            <script>
+                function menuToggle() {
+                    const toggleMenu = document.querySelector('.menu');
+                    toggleMenu.classList.toggle('active');
+                }
+            </script>
+        </header>
+    </div>
+</body>
+
+</html>

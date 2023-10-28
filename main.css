@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+.slider {
+    padding-top: 10000px;
+}
+
+.category1 {
+    position: absolute;
+    top: 767px;
+    left: 208px;
+    font-size: var(--font-size-11xl);
+    font-weight: 500;
+}
+
+.head {
+    font-family: poppins;
+    font-size: 40px;
+    font-style: normal;
+    position: relative;
+    left: -20px;
+    padding: 4%;
+}
+
+.picture-7-icon1 {
+    width: 473px;
+    height: 261px;
+    border-radius: 15px;
+}
+
+.picture-6-icon1 {
+    width: 473px;
+    height: 261px;
+    border-radius: 15px;
+}
+
+.picture-5-icon1 {
+    width: 473px;
+    height: 261px;
+    border-radius: 15px;
+}
+
+.events {
+    padding-left: 100px;
+}
+
+.th,
+td {
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+.frame-item {
+    height: 467px;
+    width: 100%;
+    border-radius: 15px;
+    position: relative;
+    left: -10px;
+}
+
+.featured {
+    font-family: poppins;
+    font-size: 40px;
+    font-style: normal;
+    position: relative;
+    left: -20px;
+    padding: 4%;
+}
+
+.shirley {
+    height: 299px;
+    width: 353px;
+}
+
+.bombay {
+    height: 299px;
+    width: 353px;
+}
+
+.glam {
+    padding-top: 10px;
+    height: 305px;
+    width: 353px;
+}
+
+.rock {
+    height: 299px;
+    width: 353px;
+}
+
+.coonvo {
+    height: 299px;
+    width: 353px;
+}
+
+.ganesh {
+    height: 301px;
+    width: 353px;
+}
+
+.laser {
+    height: 299px;
+    width: 353px;
+}
+
+.murder {
+    height: 299px;
+    width: 353px;
+}
+
+.latest-media {
+    font-family: poppins;
+    font-size: 40px;
+    font-style: normal;
+    position: relative;
+    left: -20px;
+    padding: 4%;
+}
+
+.garba {
+    height: 261px;
+    width: 473px;
+    border-radius: 15px;
+}
+
+.sharod {
+    height: 261px;
+    width: 473px;
+    border-radius: 15px;
+}
+
+.ganesh-utsav {
+    height: 261px;
+    width: 473px;
+    border-radius: 15px;
+}
+
+.me {
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 40px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+.footer {
+    margin-top: 300px;
+    background-color: #09011d;
+    background: linear-gradient(to right, #110027, #021553);
+    padding: 30px 0px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: gray;
+    font-size: 0.8em;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+}
+
+.footer .row a:hover {
+    color: #fff;
+}
+
+.footer .row ul {
+    width: 100%;
+}
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+}
+
+@media (max-width:720px) {
+    .footer {
+        text-align: left;
+        padding: 5%;
+    }
+    .footer .row ul li {
+        display: block;
+        margin: 10px 0px;
+        text-align: left;
+    }
+    .footer .row a i {
+        margin: 0% 3%;
+    }
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+.action {
+    position: fixed;
+    top: 20px;
+    right: 50px;
+}
+
+.action .profile {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+/* ... Other CSS rules ... */
+
+
+/* Ensure font-family is properly enclosed in quotes */
+
+.action .menu h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding: 20px 0;
+    font-weight: 500;
+    color: #492d6d;
+    line-height: 1.2em;
+}
+
+.action .menu h3 span {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #cecece;
+    font-weight: 400;
+}
+
+
+/* ... Other CSS rules ... */
+
+.category1 {
+    position: absolute;
+    top: 767px;
+    left: 208px;
+    font-size: var(--font-size-11xl);
+    /* Make sure --font-size-11xl is defined */
+    font-weight: 500;
+}
+
+.head {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    position: relative;
+    left: -20px;
+    padding: 4%;
+}
